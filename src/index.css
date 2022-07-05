@@ -1,13 +1,21 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0; }
+
+html {
+  cursor: url(https://res.cloudinary.com/dn7qsxzdf/image/upload/v1653407606/portfolio%20daniel/cursor_2_yavrhq.png), auto;
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%; }  
+
+:root {
+  --colorPrimary: rgb(207, 213, 225);
+  --colorSecondary: #4da5c5;
+  --colorTertiary: #59afce;
+  --background: #3c6486;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
 }
